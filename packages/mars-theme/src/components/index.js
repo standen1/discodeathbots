@@ -95,7 +95,8 @@ const globalStyles = css`
     color: #0c112b;
     font-family: "Orbitron", "Roboto",
       "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    
+    height: 100%;
+    width: 100%;
   }
 
   p {
@@ -186,8 +187,8 @@ transform: translateX(-50%);
   justify-content: center;
   align-content: center;
   max-width: 800px;
-  padding: 25px 0;
-  margin: auto;
+  padding: 25px 10px;
+  margin: 0 auto;
   z-index: 50;
   clear: none;
   @media (max-width: 500px) {

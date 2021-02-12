@@ -39,8 +39,8 @@ export default connect(List);
 const Container = styled.section`
   max-width: 800px;
   height: 500px;
-  margin: 50px 0 25px;
-  padding: 25px 0;
+  margin: 0;
+  padding: 80px 10px;
   list-style: none;
   overflow: auto;
   box-sizing: border-box;
